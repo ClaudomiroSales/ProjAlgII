@@ -3,12 +3,12 @@
 Vertice::Vertice(const string &nome)
 {
 	this->nome = nome;
-	this->adj_out = 0;
+	//this->adj_out = 0;
 }
 
 Vertice::~Vertice()
 {
-	delete [] adj_out;
+	//delete [] adj_out;
 }
 
 string Vertice::get_nome() const

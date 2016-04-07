@@ -18,7 +18,7 @@ public:
 		int caminho;
 	};
 	
-	Aresta *adj_out;
+	Aresta adj_out;
 	
 private:
 	string nome;
